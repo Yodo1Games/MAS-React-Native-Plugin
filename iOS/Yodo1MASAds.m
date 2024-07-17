@@ -211,7 +211,7 @@ RCT_EXPORT_METHOD(initMasSdk:(BOOL *)ccpa coppa:(BOOL *)coppa gdpr:(BOOL *)gdpr)
     [Yodo1Mas sharedInstance].isGDPRUserConsent = gdpr;
     [[Yodo1Mas sharedInstance] setAdBuildConfig:config];
     
-    [[Yodo1Mas sharedInstance] initMasWithAppKey:@"Z3Jpr9sFbHb"
+    [[Yodo1Mas sharedInstance] initMasWithAppKey:@"YourAppKey"
         successful:^{
           [self sendEvent:@"onMasInitSuccessful"];
         }
