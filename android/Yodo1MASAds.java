@@ -98,7 +98,7 @@ public class Yodo1MASAds extends ReactContextBaseJavaModule {
        Yodo1Mas.getInstance().setCOPPA(coppa);
        Yodo1Mas.getInstance().setGDPR(gdpr);
        //Call Delegate Function before Init Sdk:
-       Yodo1Mas.getInstance().initMas(Yodo1MASAds.this.getCurrentActivity(), "1BUpPjJgws", new Yodo1Mas.InitListener() {
+       Yodo1Mas.getInstance().initMas(Yodo1MASAds.this.getCurrentActivity(), "YourAppKey", new Yodo1Mas.InitListener() {
            @Override
            public void onMasInitSuccessful() {
                setInitialized(true);
