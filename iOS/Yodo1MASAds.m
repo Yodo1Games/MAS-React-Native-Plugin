@@ -193,7 +193,7 @@
 
 - (void)onAppOpenAdClosed:(Yodo1MasAppOpenAd *)ad {
     // Code to be executed when the ad closed
-    [self sendEvent:@"onAppOpenAdClosedv"];
+    [self sendEvent:@"onAppOpenAdClosed"];
     [[Yodo1MasAppOpenAd sharedInstance] loadAd];
 }
 /*RCT_EXPORT_METHOD(isInitialized:(RCTPromiseResolveBlock) resolve
