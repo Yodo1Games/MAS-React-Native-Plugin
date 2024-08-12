@@ -131,7 +131,7 @@ export const setCCPA = async () => {
 };
 
 export const setCOPPA = async () => {
-  Yodo1MASAds.setCCPA(true);
+  Yodo1MASAds.setCOPPA(true);
 };
 
 export const setGDPR = async () => {
